@@ -6,6 +6,9 @@ export default {
 
 <template>
     <section>
+        <img :class="logo"
+            src="@/assets/logo/logo2.png" alt="logo" class="logo"
+        >
     <header>
         <h1 class="title">Welcome to JCT developpement</h1>
     </header>
@@ -36,6 +39,7 @@ Etiam libero nunc, facilisis non ullamcorper et, viverra gravida sapien. Mauris 
 .img {
     width: 100%;
     margin-bottom: 2rem;
+    
 }
 .para {
     text-align: center;
@@ -43,5 +47,10 @@ Etiam libero nunc, facilisis non ullamcorper et, viverra gravida sapien. Mauris 
 }
 .contact {
     color:blue;
+}
+.logo {
+    width:15%;
+    display: flex;
+    margin-left: 30rem;
 }
 </style>
