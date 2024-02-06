@@ -24,8 +24,11 @@ export default {
     </router-view>
 
     <template #footer>
-      <router-link to="/login">
-        Login
+      <br>
+      <router-link 
+      class="btn btn-md btn-primary" 
+      to="/contact">
+        Contact
       </router-link>
     </template>
   </main-layout>
@@ -70,3 +73,6 @@ export default {
   display: none;
 }
 </style>
+
+
+

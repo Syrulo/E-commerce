@@ -24,5 +24,25 @@
         "name": "ProductDetailsPage",
         "path": "/products/:id",
         "component": "ProductDetailsPage.vue" 
+    },
+    {
+        "uuid": "category_list_page",
+        "name": "ProductsCategoryPage",
+        "path": "/category",
+        "component": "ProductsCategoryPage.vue"   
+    },
+    {
+        "uuid": "contact_page",
+        "name": "ContactPage",
+        "path": "/contact",
+        "component": "ContactPage.vue"  
+    },
+    {
+        "uuid": "admin_categories_page",
+        "name": "CategoryAdmin",
+        "path": "/admin/category",
+        "component": "Admin/CategoryAdmin.vue",
+        "meta": { "requiresAuth": true, "isAdmin": true }
     }
+
 ]

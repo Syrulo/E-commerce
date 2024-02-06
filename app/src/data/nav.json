@@ -20,6 +20,28 @@
                     "requiresAuth": true,
                     "isAdmin": true
                 }
+            },
+            {
+                "name": "Categories",
+                "link": "/admin/category",
+                "target": "_self",
+                "class": "link-body-emphasis",
+                "meta": { 
+                    "requiresAuth": true,
+                    "isAdmin": true
+                }
+            },
+            {
+                "name": "Categories List",
+                "link": "/category",
+                "target": "_self",
+                "class": "link-body-emphasis"
+            },
+            {
+            "name": "Products List",
+            "link": "/products",
+            "target": "_self",
+            "class": "link-body-emphasis"
             }
         ]
     },

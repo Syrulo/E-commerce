@@ -102,6 +102,13 @@
             </li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Sign out</a></li>
+            <li><a class="dropdown-item" href="#">
+                <router-link 
+                class="btn btn-md btn-sucess"
+                to="/login">
+                Login
+                </router-link>
+            </a></li>
           </ul>
         </div>
       </div>
