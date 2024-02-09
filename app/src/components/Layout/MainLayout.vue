@@ -20,6 +20,7 @@
                 v-if="$slots.footer"
                 name="footer"
             ></slot>
+            <br>
                 <i class="fa-brands fa-youtube" style="font-size: 100%;">             Ma chaine youtube</i>
                 <br>
                 <i class="fa-brands fa-instagram" style="font-size: 100%;">           Mon insta</i>
