@@ -15,11 +15,18 @@
         <main>
             <slot v-if="$slots.default"></slot>
         </main>
-        <footer>
+        <footer class="border border-dark border-1 rounded-3 p-5 mt-5 bg-light" style="width:100%; text-align: center;">
             <slot
                 v-if="$slots.footer"
                 name="footer"
             ></slot>
+                <i class="fa-brands fa-youtube" style="font-size: 100%;">             Ma chaine youtube</i>
+                <br>
+                <i class="fa-brands fa-instagram" style="font-size: 100%;">           Mon insta</i>
+                <br>
+                <i class="fa-brands fa-twitter" style="font-size: 100%;">             Mon twitter</i>
+                <br>
+                <i class="fa-brands fa-facebook" style="font-size: 100%;">            Mon facebook</i>
         </footer>
     </div>
 </template>

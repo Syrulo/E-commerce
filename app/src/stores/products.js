@@ -27,6 +27,9 @@ export const useProductsStore = defineStore(STORE_NAME, {
       getProductToEditId: (state) => state.productToEditId,
       getProductById: (state) => (id) => {
         return state.products.find(product => product.id == id)
+      },
+      getProductsByCategory: (state) => (category) => {
+        return state.products.filter(product => product.category == category)
       }
     },
     actions: {

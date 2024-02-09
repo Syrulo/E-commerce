@@ -23,7 +23,7 @@
             },
             {
                 "name": "Categories",
-                "link": "/admin/category",
+                "link": "/admin/categories",
                 "target": "_self",
                 "class": "link-body-emphasis",
                 "meta": { 

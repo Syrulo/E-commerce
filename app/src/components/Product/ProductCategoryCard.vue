@@ -2,48 +2,49 @@
 
 export default {
   name: "ProductCategoryCard",
+
+  data () {
+    
+  },
   props: {
-    product: {
+    category: {
       type: Object,
       default: null,
-    },
+    }
   },
   computed: {
-    vtaCalculation: () => (price, vta) => {
-      if (typeof price != "number") {
-        /* throw new Error('Parameter is not a number!') */
-        return "Error price is not a number";
-      }
-      let tax = (price / 100) * vta;
-      return price + tax;
-    },
-  },
-};
+    
+  },  
+  methods: {
+     
+    }
+  }
+
+
+// creer un objet qui renseigne les noms de la categorie. qqpart c'est deja pops products.
+// si la categorie existe déja, ne pas l'afficher.
+
 </script>
 
 <template>
   <article 
-    v-if="product != null"
+    v-if="category != null"
     class="card" 
     style="width: 18rem;"
   >
-    <img src="..." class="card-img-top" alt="...">
+
+  <router-link :to="{name: 'ProductDetailsPage', params: {id: category.id}}" style="text-decoration: none">
     <section class="card-body">
-      <h3 class="card-title">{{ product.name }}</h3>
-      <p class="text-muted">{{ product.category }}</p>
-      <p class="card-text">{{ product.price }}€</p>
-      <p class="text-muted">
-          tva :{{ product.vta }}% -
-          {{ vtaCalculation(product.price, product.vta) }}€
-          TTC
+      <p class="card-title" style="font-size:1.5rem ; color:black;">
+        {{category.name}}
       </p>
-      <router-link
-        :to="{name: 'ProductsCategoryPage', params: {id: product.id}}"
-        class="btn btn-primary"
+      <img
+        :src="category.image"
+        :alt="category.name"
+        style="max-width: 90%; max-height: 90%; margin:auto;"
       >
-        Voir L'article
-      </router-link>
     </section>
+  </router-link>
   </article>
   <section
     v-else
@@ -53,4 +54,5 @@ export default {
     <img src="..." class="card-img-top" alt="...">
     <h3 >Ce produit n'existe pas</h3>
   </section>
+
 </template>

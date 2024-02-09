@@ -1,11 +1,12 @@
 <script>
-import {ProductForm, ProductsTable} from "@/components"
+import {CategoryForm, CategoriesTable} from "@/components"
 
 export default {
     name: "CategoryAdmin",
     components: {
-        ProductForm,
-        ProductsTable
+        CategoryForm,
+        CategoriesTable
+        
     },
     data() {
         return {
@@ -20,7 +21,7 @@ export default {
 
 <template>
     <section class="d-flex wrap">
-        <product-form class="col-6"/>
-        <products-table class="col-6" s/>
+        <category-form class="col-6"/>
+        <categories-table class="col-6" s/>
     </section>
 </template>

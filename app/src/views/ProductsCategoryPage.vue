@@ -1,5 +1,8 @@
 
 <script>
+
+import { mapState } from 'pinia'
+import { useCategoriesStore  } from '@/stores'
 import {ProductCategoryCard} from '@/components'
 
 export default {
@@ -7,10 +10,18 @@ export default {
     components: {
         ProductCategoryCard
     },
+    computed: {
+        ...mapState(useCategoriesStore, ["getCategories"])
+    }
 }
 </script>
 <template>
     <section class="container row">
-        <h1>ok</h1>
+        <product-category-card
+            v-for="category in getCategories"
+            :key="category.id"
+            :category="category"
+            class="col-4"
+        />
     </section>
 </template>

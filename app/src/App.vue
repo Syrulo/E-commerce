@@ -24,16 +24,14 @@ export default {
     </router-view>
 
     <template #footer>
-      <br>
-      <router-link 
-      class="btn btn-md btn-primary" 
-      to="/contact">
+      <router-link class="btn btn-md btn-dark" to="/contact">
+
         Contact
+
       </router-link>
     </template>
   </main-layout>
 </template>
-
 
 <style>
   .fade-enter-active,
@@ -73,6 +71,3 @@ export default {
   display: none;
 }
 </style>
-
-
-
