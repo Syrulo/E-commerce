@@ -18,7 +18,7 @@ export default {
         // IMPORTER LE PRODUIT SELECTIONNÉ
         const category = this.getCategoryById(this.getCategoryToEditId)
         this.name = category.name;
-        
+        this.image = category.image;
         this.category = this.getCategoryById(this.getCategoryToEditId).category;
         this.confirmEditMode = true;
         this.currentCategoryId = this.categoryToEditId;
