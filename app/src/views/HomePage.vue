@@ -24,11 +24,8 @@ Curabitur pulvinar ante lectus, quis commodo ligula placerat vitae. Etiam vitae 
 Suspendisse risus dolor, rhoncus quis sem efficitur, malesuada bibendum velit. Donec dapibus velit est, eu malesuada nisl faucibus et. Fusce fermentum condimentum lacinia. Aenean tempus nisl quis mi porttitor, vel volutpat tortor aliquet. Donec commodo mauris eget quam porttitor aliquam. Phasellus et diam in mauris egestas malesuada. Aliquam in pulvinar est. Aenean finibus erat dui, vel sagittis velit rhoncus in. Proin id tempor nibh, eu cursus tortor. Morbi elementum, mauris non ultrices luctus, sem sapien dapibus felis, eget ultrices ligula sapien a arcu. Curabitur vel bibendum eros. Duis porta libero quis iaculis suscipit. Fusce quis ullamcorper neque. Vivamus leo nisl, vestibulum ut pulvinar vel, auctor vel odio.
 
 Etiam libero nunc, facilisis non ullamcorper et, viverra gravida sapien. Mauris posuere gravida velit, vitae tincidunt nisl aliquam ac. Praesent vel felis ipsum. Nullam vel pretium turpis. Nullam elit nibh, viverra malesuada sollicitudin vel, facilisis vitae neque. Proin ultricies sagittis sapien sit amet lacinia. Nam vehicula urna nisl, tempus varius mauris tempus accumsan. In mattis venenatis nunc, vitae semper velit molestie ut. Sed dui velit, scelerisque quis leo quis, facilisis tristique mauris. Mauris eros metus, commodo vitae ullamcorper id, finibus id ante. Aenean facilisis urna sed justo tristique cursus. </p>
-    <h4 class="contact">Contact</h4>
-    <p>mon@email.com</p>
-    <p>admin@societe.com</p>
-    <p>www.localhost.com</p>
-    <p>0601020304</p>
+    
+    
     </section>
 </template>
 <style scoped>
